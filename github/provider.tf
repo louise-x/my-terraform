@@ -16,5 +16,5 @@ terraform {
 }
 provider "github" {
   owner = "louise-x"
-  token = var.github_token
+  token = var.github_token # local run need to replace the var
 }
