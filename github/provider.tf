@@ -16,5 +16,5 @@ terraform {
 }
 provider "github" {
   owner = "louise-x"
-  token = "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"
+  token = "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"
 }
