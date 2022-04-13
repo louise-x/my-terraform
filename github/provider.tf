@@ -12,9 +12,6 @@ terraform {
       source  = "integrations/github"
       version = "~> 4.0"
     }
-    local = {
-      source = "hashicorp/local"
-    }
   }
 }
 provider "github" {
