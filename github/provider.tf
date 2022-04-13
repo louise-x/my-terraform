@@ -16,5 +16,5 @@ terraform {
 }
 provider "github" {
   owner = "louise-x"
-  token = "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"
+  token = var.github_token
 }
